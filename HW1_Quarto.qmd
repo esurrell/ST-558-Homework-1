@@ -1,0 +1,47 @@
+---
+title: "About Data Science"
+author: "Emily Surrell"
+format: html
+editor: visual
+---
+
+# About Data Science
+
+## Q&A
+
+- What do you think being a data scientist is about?
+
+  - Being a data scientist is about understanding all aspects of how data is used in the real world. This includes generating and collecting data, storing data, cleaning data, analyzing data, and communicating about data. Different roles within data science may specialize in different steps of the pipeline; for example, a data engineer may focus more on the storage of data while a business insights analyst may focus more on the communication aspects. While an individual data scientist may have their specialty, all of these areas are interconnected and data science as a whole is the umbrella that encompasses all of the ways that we interact with data.
+
+- What differences/similarities do you see between data scientists and statisticians?
+
+  - Statisticians focus more on the mathematical theory of what we can do with data: test hypotheses, quantify uncertainty, build models, and more.
+  - Data scientists, on the other hand, focus more on practical applications. Data scientists face challenges such as limited time or computing resources, unclear questions, and messy or inaccurate data. Data scientists also need to manage client expectations, set clearly defined goals, understand business needs, and find ways to bridge the gap between business questions and technical questions.
+  - Statisticians must think about the challenges that data scientists face, and data scientists must think about the challenges that statisticians face. Therefore, there is a lot of overlap between the two disciplines. Statisticians and data scientists work together to understand both the potential and the limitations of working with data.
+
+- How do you view yourself in relation to these two areas?
+
+  - I view myself more on the data scientist side. I work in labor and employment litigation consulting, a job that primarily involves writing SAS code to process and understand timekeeping, payroll, and human resources data. Part of my job is understanding how timekeeping and payroll systems work, so that I can help clients fix their system configurations so that they can pay their employees correctly. I also need to know which reports from these systems are reliable for me to use to download the data that I am interested in analyzing. Once I have data, it often requires extensive cleaning, such as filling in missing clock-in/clock-out punches, identifying unique employees, limiting to the intended population, formatting variables, and merging multiple sources of data together. After doing an analysis of the data -- which is often statistically quite simple -- I must effectively communicate my findings to attorneys and to business leaders.
+
+## Using R
+
+Save the Petal.Width column from the iris dataset into an object called y.
+
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+Determine the class, type, and structure of the object y.
+
+```{r}
+class(y) #determine the class
+typeof(y) #determine the type
+str(y) #determine the structure
+```
+
+Plot y.
+
+```{r}
+#| echo: false
+plot(y)
+```
