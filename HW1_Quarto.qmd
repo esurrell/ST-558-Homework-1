@@ -5,8 +5,6 @@ format: html
 editor: visual
 ---
 
-# About Data Science
-
 ## Q&A
 
 - What do you think being a data scientist is about?
